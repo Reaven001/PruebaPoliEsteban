@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.InputSystem; 
 public class tocar : MonoBehaviour
 {
     void OnMouseDown()
@@ -9,6 +9,6 @@ public class tocar : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log("Holaaa");
+        Debug.Log("Se genero este cubo correctamente");
     }
 }
